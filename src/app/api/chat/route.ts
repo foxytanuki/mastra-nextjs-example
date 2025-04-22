@@ -1,5 +1,4 @@
 import { mastra } from "@/mastra";
-import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
   const { city } = await req.json();
